@@ -1,0 +1,102 @@
+.support-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin: 0% 2% 0 3%;
+  }
+  
+  .support-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+  } 
+  .coll{
+    width: 40%;
+  }
+  .suport-img{
+    top: 0;
+    position: sticky;
+    align-self: start;
+  }
+  .support-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-text-stroke-width: thin;
+    width: 60%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .support-description {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .support-contact {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .support-contact li {
+    margin-bottom: 10px;
+  }
+  
+  .support-label {
+    font-weight: bold;
+  }
+  
+  .support-message {
+    text-align: center;
+  }
+  
+  .support-message p {
+    color: #666;
+  }
+  
+
+  .support-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .support-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+  }
+  
+  .support-card h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .support-card .address {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .support-card p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .support-card .links a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .support-card .links a:hover {
+    text-decoration: underline;
+  }

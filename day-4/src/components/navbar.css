@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap");
+* {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.navbar {
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.204);
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  z-index: 1;
+}
+.logo {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  font-size: larger;
+}
+.top-links {
+  display: flex;
+}
+.links {
+  display: flex;
+  width: 55vw;
+  justify-content: space-between;
+  backdrop-filter: blur(10px);
+}
+ul {
+  list-style: none;
+}
+.child {
+  margin: 1.5%;
+  padding: 1.5%;
+  list-style: none;
+  font-family: "Comfortaa", cursive;
+  font-size-adjust: inherit;
+  font-weight: 10px;
+  font-size: 2.5vh;
+  min-width: fit-content;
+}
+.child:hover {
+  cursor: pointer;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.186);
+  box-shadow: 0 5px 20px 0 #35363642;
+}
+.child.ls {
+  cursor: pointer;
+  border-radius: 7px;
+  background: #3333ff;
+  box-shadow: 2px 5px 20px 0 #35363642;
+  transition: transform 0.1ms;
+}
+ul.child.ls:hover {
+  border-radius: 7px;
+  background: #3333ff;
+  box-shadow: 0 5px 20px 0 #38383842;
+}
+.child.ls:active {
+  transform: scale(0.95);
+}
+
+.profile {
+  align-self: center;
+  margin-left: 15%;
+  padding: 2px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+.profile:hover{
+  box-shadow: 0 0px 5px 0 #ffffff;
+}
+.line {
+  display: none;
+}
+
+/* @media screen and (max-width: 700px) {
+  .navbar{
+    justify-content: space-around;
+  }
+  .line{
+    display: block;
+  }
+  .logo{
+    align-items: center;
+    align-content: center;
+  }
+  .top-links{
+    display: none;
+  }
+} */
