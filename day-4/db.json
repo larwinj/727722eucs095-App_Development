@@ -1,0 +1,12 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@gmail.com",
+        "mobilenumber": "1234567890",
+        "password": "Password@123"
+      }
+    ]
+  }
+  

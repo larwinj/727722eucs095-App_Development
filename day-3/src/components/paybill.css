@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+.paybill-container {
+  /* width: calc(100vw - 40px); */
+  width: auto;
+  height: auto;
+}
+.billing{
+  display: flex;
+  margin-bottom: 10%;
+}
+.paybill-h{
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.2);
+}
+.bill-section{
+  margin-top: 1%;
+  margin-left:5%;
+  width: 0;
+  height: 80vh;
+  overflow-y: scroll;
+  /* border: 2px solid whitesmoke; */
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.204);
+  background: #002970;
+  box-shadow: 0 4px 10px 0px rgba(204, 219, 232, 0.2);
+}
+
+.bill-section::-webkit-scrollbar{
+  width: 10px;
+  background-color: transparent;
+}
+.bill-section::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #868686;
+  border-radius: 5px;
+}
+
+.bill-section::-webkit-scrollbar-track {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+.tle-h{
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration-line: underline;
+}
+div h2 {
+  line-height: 1.5;
+  
+}
+.option div {
+  opacity: calc(10px);
+  border-radius: 8px;
+  margin: 20px;
+  margin-bottom: 30px;
+  text-align-last: center;
+}
+div h4{
+  min-width:  max-content;
+}
+.img-paybill{
+  width: 40%;
+  height: auto;
+}
+.option div:hover{
+  background-color: #ffffff31;
+}
+.payment-section{
+  width: 100%;
+}
+.form-bg-color{
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 60%;
+  height: 40%;
+  background: #002970;
+  border-radius: 10px 10px 0 0;
+}
+.bill-form-container{
+  position: absolute;
+  z-index: 1;
+  margin-top: -12%;
+  margin-left: 15%;
+  /* width: 40%;
+  height: 80%; */
+  width: max-content;
+  height: max-content;
+  background-color: ghostwhite;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  justify-content: center;
+}
+.bill-form-container h2{
+  color: black !important;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.pre-post{
+  display: flex;
+  padding: 5%;
+  justify-content: center;
+  color: black !important;
+}
+.prem{
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+.prem label{
+  color: black !important;
+}
+
+.bill-inputs{
+  color: black !important;
+}
+.prem input, label:hover {
+  cursor: pointer;
+}
+.input-container {
+  position: relative;
+  margin: 5% 10% 10% 10%;
+}
+
+.input-container input, select {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-bottom : 1px solid #ccc;
+  background-color: ghostwhite;
+  border-radius: 5px;
+  width: 90%;
+  font-size: 16px;
+  transition: 0.2s ease-out;
+  color: #999;
+}
+.input-container select{
+  width: 95%;
+}
+.input-container select option{
+  color: black !important;
+  border-radius: 10px;
+  background-color: ghostwhite;
+}
+.input-container label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #999;
+  pointer-events: none;
+  transition: 0.2s ease-out;
+}
+
+.input-container input:focus + label,d
+.input-container input:not(:placeholder-shown) + label{
+  top: -10px;
+  font-size: 12px;
+  color: #007bff;
+  border-radius: 10px;
+  background-color: ghostwhite;
+  padding: 0 5px;
+  border: none;
+}
+
+select:focus + label,
+select:not(:placeholder-shown) + label 
+{
+  top: -10px;
+  font-size: 12px;
+  color: #007bff;
+  background-color: ghostwhite;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+.input-container button{
+  width: 100%;
+  height: 6vh;
+  border-radius: 10px;
+  border: none;
+  background: #00baf2;
+}
+.input-container button:active{
+  transform: scale(0.99);
+}
+
+
+

@@ -1,0 +1,38 @@
+.stats-container {
+    padding: 5%;
+  }
+  
+  .stats-header {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .stats-item {
+    padding: 5%;
+    border-radius: 5px;
+    background-color: rgba(73, 53, 254, 0.596);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .stat-name {
+    font-size: 1.5vw;
+    color: #ffffff;
+    font-weight: 20px;
+
+  }
+  
+  .stat-value {
+    font-size: 2vw;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
