@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+.payments {
+  height: 100vh;
+  background-color: aqua;
+  /* background-image: url("C:\Users\pravi\Downloads\3764936.jpg"); */
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+}
+
+.payments form {
+  padding: 20px;
+  width: 700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 80px;
+  margin-left: 30%;
+  border-radius: 20px;
+}
+
+.payments form .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.payments form .row .col {
+  flex: 1 1 250px;
+}
+
+.payments form .row .col .title {
+  font-size: 26px;
+  color: #333;
+  padding-bottom: 5px;
+}
+
+.payments form .row .col .inputBox {
+  margin: 15px 0;
+}
+
+.payments form .row .col .inputBox span {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 1rem;
+  font: bold;
+}
+
+.payments form .row .col .inputBox input {
+  width: 90%;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  font-size: 18px;
+  text-transform: none;
+  border-radius: 5px;
+}
+
+.payments form .row .col .inputBox input:focus {
+  border: 1px solid #000;
+}
+
+.payments form .row .col .flex {
+  display: flex;
+  gap: 15px;
+}
+
+.payments form .row .col .flex .inputBox {
+  margin-top: 5px;
+}
+.payments form .row .col .flex .you {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+.payments form .row .col .you input {
+  width: 130px;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  font-size: 18px;
+  text-transform: none;
+  border-radius: 5px;
+}
+
+.payments form .row .col .inputBox img {
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.payments form .submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  background: #000000;
+  color: #fff;
+  border-radius: 40px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.scanPayStatement {
+  margin-top: 55px;
+  text-align: center;
+  padding-left: -10px;
+}
+
+.scanPayStatement p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.qrCodeBox {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.qrCodeBox img {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border: 2px solid #333;
+}

@@ -1,0 +1,102 @@
+digraph {
+	User [shape=box]
+	UserID [shape=ellipse]
+	User -> UserID
+	Username [shape=ellipse]
+	User -> Username
+	Email [shape=ellipse]
+	User -> Email
+	Password [shape=ellipse]
+	User -> Password
+	PhoneNumber [shape=ellipse]
+	User -> PhoneNumber
+	ProfilePicture [shape=ellipse]
+	User -> ProfilePicture
+	AccountBalance [shape=ellipse]
+	User -> AccountBalance
+	MobileRecharge [shape=box]
+	RechargeID [shape=ellipse]
+	MobileRecharge -> RechargeID
+	UserID [shape=ellipse]
+	MobileRecharge -> UserID
+	MobileNumber [shape=ellipse]
+	MobileRecharge -> MobileNumber
+	OperatorID [shape=ellipse]
+	MobileRecharge -> OperatorID
+	CircleID [shape=ellipse]
+	MobileRecharge -> CircleID
+	Amount [shape=ellipse]
+	MobileRecharge -> Amount
+	Date [shape=ellipse]
+	MobileRecharge -> Date
+	Status [shape=ellipse]
+	MobileRecharge -> Status
+	Operator [shape=box]
+	OperatorID [shape=ellipse]
+	Operator -> OperatorID
+	OperatorName [shape=ellipse]
+	Operator -> OperatorName
+	Circle [shape=box]
+	CircleID [shape=ellipse]
+	Circle -> CircleID
+	CircleName [shape=ellipse]
+	Circle -> CircleName
+	RechargeOffer [shape=box]
+	OfferID [shape=ellipse]
+	RechargeOffer -> OfferID
+	OperatorID [shape=ellipse]
+	RechargeOffer -> OperatorID
+	CircleID [shape=ellipse]
+	RechargeOffer -> CircleID
+	Amount [shape=ellipse]
+	RechargeOffer -> Amount
+	Description [shape=ellipse]
+	RechargeOffer -> Description
+	Validity [shape=ellipse]
+	RechargeOffer -> Validity
+	TransactionHistory [shape=box]
+	TransactionID [shape=ellipse]
+	TransactionHistory -> TransactionID
+	UserID [shape=ellipse]
+	TransactionHistory -> UserID
+	RechargeID [shape=ellipse]
+	TransactionHistory -> RechargeID
+	TransactionDate [shape=ellipse]
+	TransactionHistory -> TransactionDate
+	Amount [shape=ellipse]
+	TransactionHistory -> Amount
+	Status [shape=ellipse]
+	TransactionHistory -> Status
+	SupportTicket [shape=box]
+	TicketID [shape=ellipse]
+	SupportTicket -> TicketID
+	UserID [shape=ellipse]
+	SupportTicket -> UserID
+	IssueDescription [shape=ellipse]
+	SupportTicket -> IssueDescription
+	DateCreated [shape=ellipse]
+	SupportTicket -> DateCreated
+	Status [shape=ellipse]
+	SupportTicket -> Status
+	UserMobileRechargeMakes [label=Makes shape=diamond]
+	User -> UserMobileRechargeMakes
+	UserMobileRechargeMakes -> MobileRecharge
+	OperatorMobileRechargeHas [label=Has shape=diamond]
+	Operator -> OperatorMobileRechargeHas
+	OperatorMobileRechargeHas -> MobileRecharge
+	CircleMobileRechargeBelongs [label=Belongs shape=diamond]
+	Circle -> CircleMobileRechargeBelongs
+	CircleMobileRechargeBelongs -> MobileRecharge
+	UserTransactionHistoryHas [label=Has shape=diamond]
+	User -> UserTransactionHistoryHas
+	UserTransactionHistoryHas -> TransactionHistory
+	MobileRechargeTransactionHistoryLogs [label=Logs shape=diamond]
+	MobileRecharge -> MobileRechargeTransactionHistoryLogs
+	MobileRechargeTransactionHistoryLogs -> TransactionHistory
+	UserSupportTicketCreates [label=Creates shape=diamond]
+	User -> UserSupportTicketCreates
+	UserSupportTicketCreates -> SupportTicket
+	RechargeOfferMobileRechargeApplies [label=Applies shape=diamond]
+	RechargeOffer -> RechargeOfferMobileRechargeApplies
+	RechargeOfferMobileRechargeApplies -> MobileRecharge
+}

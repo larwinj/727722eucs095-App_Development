@@ -1,0 +1,124 @@
+.support-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 20px auto;
+  gap: 20px;
+}
+
+.support-title {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+  text-align: center;
+  width: 100%;
+}
+
+.coll {
+  flex: 1;
+  min-width: 300px;
+}
+
+.suport-img {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.support-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.support-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.support-contact {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.support-contact li {
+  margin-bottom: 10px;
+}
+
+.support-label {
+  font-weight: bold;
+}
+
+.support-message {
+  text-align: center;
+}
+
+.support-message p {
+  color: #666;
+}
+
+.support-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.support-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.support-card h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.support-card .address {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+.support-card p {
+  font-size: 16px;
+  color: #333;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.support-card .links a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+  text-align: center;
+}
+
+.support-card .links a:hover {
+  text-decoration: underline;
+}
+
+.contact-label1 {
+  font-weight: bold;
+  color: black; /* Change to the desired color */
+}
+.contact-label {
+  color: #007bff; /* Change to the desired color */
+}
